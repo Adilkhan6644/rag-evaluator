@@ -1,0 +1,55 @@
+{
+  "timestamp": "20260521_144014",
+  "model": "llama-3.3-70b-versatile",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "num_questions": 2,
+  "qa_pairs": [
+    {
+      "question": "What is Docker?",
+      "context": [
+        "Docker is a platform for building and running containers.",
+        "Python is a programming language used for AI and web development."
+      ],
+      "answer": "Docker is a platform for building and running containers.",
+      "ground_truth": "Docker is a platform for building and running containers."
+    },
+    {
+      "question": "What is RAG?",
+      "context": [
+        "RAG combines retrieval and generation in LLM systems.",
+        "Docker is a platform for building and running containers."
+      ],
+      "answer": "RAG combines retrieval and generation in LLM systems.",
+      "ground_truth": "RAG combines retrieval and generation in LLM systems."
+    }
+  ],
+  "aggregate_scores": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8734,
+    "context_precision": 1.0,
+    "context_recall": 1.0,
+    "answer_correctness": 1.0,
+    "answer_similarity": 1.0,
+    "context_entity_recall": 0.75
+  },
+  "per_question_scores": [
+    {
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "answer_correctness": 1.0,
+      "answer_similarity": 1.0,
+      "context_entity_recall": 0.9999999900000002
+    },
+    {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7468234547418631,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "answer_correctness": 1.0,
+      "answer_similarity": 1.0,
+      "context_entity_recall": 0.4999999975
+    }
+  ]
+}
